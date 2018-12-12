@@ -3,8 +3,8 @@ Exam 1, problem 2.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Kirsten Rockey.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -44,6 +44,31 @@ def test_factor_sum():
     ###########################################################################
     # WRITE YOUR TESTS BELOW HERE:
     ###########################################################################
+
+    expected = 11
+    answer = factor_sum(28)
+    print('Test 1 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 4
+    answer = factor_sum(25)
+    print('Test 2 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 10
+    answer = factor_sum(64)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 7
+    answer = factor_sum(4)
+    print('Test 4 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 10
+    answer = factor_sum(100)
+    print('Test 5 expected:', expected)
+    print('       actual:  ', answer)
 
 
 def factor_sum(n):
